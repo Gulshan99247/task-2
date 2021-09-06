@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <link rel="stylesheet" href="yati.css">
+    <style>
+        p{
+            font-size: large;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        *{
+box-sizing: border-box;
+        }
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(106, 150, 49);
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(212, 13, 13);
+        }
+        #FRUITS{
+            float: left;
+           width: 48%;
+        }
+        #COMPUTER{
+            float: right;
+            width: 48%;
+        }
+        #STATINTONARY{
+           /* float: left;*/
+            clear: both;
+            clear left: ;
+            width: 100%;
+        }
+        p,h3{
+           /* text-align: right;
+            text-align: left;
+            text-align: center;*/ 
+            text-align: justify;
+        }
+        h1{
+            margin:23 px auto;
+            width: 455px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: blueviolet;">Welcome to my store</h1>
+        <div id="FRUITS" class ="item">
+            <h3>Fruits</h3>
+            <p id="Fruitpara" class="para">the rotation part of this is a running whuch is circular disc.
+                its of 2 parts . they are made of cast iron,cast steel&cast steel bronze or stainless steel.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut numquam tenetur iste perferendis nobis quaerat laboriosam quas,
+                 fugit odit doloribus dicta accusantium et magnam voluptatum quis doloremque similique! Itaque non magni nobis facilis omnis!
+            </p>
+        </div>
+        <div id="COMPUTER" class ="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">the rotation part of this is a running whuch is circular disc.
+                its of 2 parts . they are made of cast iron,cast steel&cast steel bronze or stainless steel.
+            </p>
+        </div>
+        <div id="STATINTONARY" class ="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">the rotation part of this is a running whuch is circular disc.
+                its of 2 parts . they are made of cast iron,cast steel&cast steel bronze or stainless steel.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
